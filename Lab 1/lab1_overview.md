@@ -1,6 +1,8 @@
-______________________________________________________________________
-
-## title: Lab 1 Overview author: Trevor Nichols team: Group 6
+---
+title: Week 1 Notes
+author: Trevor Nichols
+team: Group 6
+---
 
 # Lab 1 Overview
 

@@ -1,6 +1,7 @@
-______________________________________________________________________
-
-## title: Week 1 Notes author: Trevor Nichols
+---
+title: Week 1 Notes
+author: Trevor Nichols
+---
 
 # Week 1
 

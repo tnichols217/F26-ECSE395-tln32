@@ -3,3 +3,4 @@ result
 out
 *.tmp
 .direnv
+.pio

@@ -5,7 +5,7 @@ track and document progress made during labs or teamwork time.
 
 # Table of Content
 
-| Weeks  | What we did         |
-| ------ | ------------------- |
-| Week 1 | Figuring out Github |
-| Week # | ...and so on        |
+| Weeks  | What we did                                                          |
+| ------ | -------------------------------------------------------------------- |
+| Week 1 | Figuring out Github                                                  |
+| Week 2 | Met with shareholder and clarified the problem and possible solution |

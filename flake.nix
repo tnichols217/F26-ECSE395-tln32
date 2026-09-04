@@ -23,6 +23,7 @@
               enable = true;
               plugins = ps: [
                 ps.mdformat-gfm
+                ps.mdformat-frontmatter
               ];
               settings = {
                 wrap = 88;
@@ -44,10 +45,26 @@
           default = pkgs.mkShell {
             name = "markdown-shell";
 
+            packages = with pkgs; [
+              arduino
+            ];
+
             buildInputs = with pkgs; [
               nil
               nixd
+              platformio
+              gcc-arm-embedded
             ];
+
+            shellHook = ''
+              # Direct PlatformIO to download packages locally
+              export PLATFORMIO_CORE_DIR="$PWD/.pio/core"
+              # Install ESP32 platform & toolchains locally if missing
+              if [ ! -d "$PLATFORMIO_CORE_DIR/packages" ]; then
+                  echo "Installing ESP32 packages into .pio/core..."
+                  pio pkg install
+              fi
+            '';
           };
         };
         checks = {
