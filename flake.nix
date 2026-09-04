@@ -30,6 +30,7 @@
                 end-of-line = "lf";
               };
             };
+            clang-format.enable = true;
             shellcheck.enable = true;
             shfmt.enable = true;
             nixfmt.enable = true;

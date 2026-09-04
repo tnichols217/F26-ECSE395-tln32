@@ -13,7 +13,7 @@ int randomAngle;
 int pulseWidth;
 
 // Define the minimum and maximum pulse widths for the servo
-const int minPulseWidth = 500; // 0.5 ms
+const int minPulseWidth = 500;  // 0.5 ms
 const int maxPulseWidth = 2500; // 2.5 ms
 
 void setup() {
@@ -25,12 +25,13 @@ void setup() {
 }
 
 void loop() {
-    //  --- SECTION 1: Make a Random Angle Between 0 to 180 ---
-    // randomAngle = ?; // random(A,B); returns a random value between A and B
+  //  --- SECTION 1: Make a Random Angle Between 0 to 180 ---
+  // randomAngle = ?; // random(A,B); returns a random value between A and B
 
-    // ---SECTION 2: Map Pulse Width with Angle
-    // pulseWidth = map(?, ?, ?, ?, ?, ?) // from Servo Motor.cpp, what did you learn from using map function?
-    myServo.writeMicroseconds(pulseWidth); // writing pulse width to servo
+  // ---SECTION 2: Map Pulse Width with Angle
+  // pulseWidth = map(?, ?, ?, ?, ?, ?) // from Servo Motor.cpp, what did you
+  // learn from using map function?
+  myServo.writeMicroseconds(pulseWidth); // writing pulse width to servo
 
-    delay(1000); // change delay to your own preference
+  delay(1000); // change delay to your own preference
 }
