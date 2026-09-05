@@ -11,9 +11,12 @@ void setup() {
 void loop() {
   Serial.println("Hello"); // Say hello!
 
-  // TODO: Set up your delay in milliseconds
   digitalWrite(LED_PIN, HIGH); // LED On
-  delay(500);                  // Wait half a second
+  delay(250);                  // Wait half a second
   digitalWrite(LED_PIN, LOW);  // LED Off
-  delay(500);                  // Wait half a second
+  delay(250);                  // Wait half a second
+  digitalWrite(LED_PIN, HIGH); // LED On
+  delay(750);                  // Wait half a second
+  digitalWrite(LED_PIN, LOW);  // LED Off
+  delay(750);                  // Wait half a second
 }
