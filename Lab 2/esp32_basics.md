@@ -37,3 +37,9 @@ To upload and monitor, run `pio run -t upload -t monitor`
 This lab took ~30 mins, messing with the version downgrade took the most time out of
 everything. I would say this assignment was also easy and I am still quite comfortable
 with the course content.
+
+## Video
+
+https://youtu.be/nVxwisBlLJI
+
+Here is a video link of the project working.
