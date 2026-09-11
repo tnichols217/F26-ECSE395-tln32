@@ -1,0 +1,1 @@
+bool process_touch();
