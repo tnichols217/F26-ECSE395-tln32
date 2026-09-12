@@ -40,6 +40,6 @@ with the course content.
 
 ## Video
 
-https://youtu.be/nVxwisBlLJI
+[https://youtu.be/nVxwisBlLJI](https://youtu.be/nVxwisBlLJI)
 
 Here is a video link of the project working.

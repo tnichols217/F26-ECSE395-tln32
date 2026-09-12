@@ -22,6 +22,12 @@ provides one function the returns a boolean of touched or not.
 
 The `main.cpp` file glues everything together and manages the Serial connection.
 
+## Demo
+
+The demo can be found at
+
+[https://youtube.com/shorts/w-wwR3czGPI](https://youtube.com/shorts/w-wwR3czGPI)
+
 ## Reflection
 
 This lab also took about ~30 mins, majority of the time was just spent cleaning up and
