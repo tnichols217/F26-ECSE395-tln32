@@ -1,59 +1,42 @@
 #include <Arduino.h>
+#include "constants.hpp"
+#include "TT_motor_lib.hpp"
 
-// TODO: Define your pins
-// Hint: Look at your wiring. Which pins did you use?
-const int MOTOR_B_1A = 0;
-const int MOTOR_B_1B = 0;
+#if COMPILE_SECTION == 2
 
 void setup() {
-  // TODO: Initialize Serial communication
-  // Serial.begin(_____);
+    Serial.begin(BAUD);
 
-  // TODO: Set your motor pins as OUTPUTs
-  // pinMode(_____, _____);
-  // pinMode(_____, _____);
+    pinMode(MOTOR_B_1A, OUTPUT);
+    pinMode(MOTOR_B_1B, OUTPUT);
 
-  // Serial.println("_____");
+    Serial.println("Starting");
 }
 
 void loop() {
-  // --- SECTION 1: Clokwise (5s) ---
-  // Serial.println("_____");
+    // --- SECTION 1: Clockwise (5s) ---
 
-  // TODO: Write HIGH to one pin and LOW to the other
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
+    Serial.println("Clockwise");
+    move_motor(MOTOR_B_1A, MOTOR_B_1B, -255);
+    delay(5000);
 
-  // delay(_____);
+    // --- SECTION 2: Stop (2s) ---
 
-  // --- SECTION 2: Stop (2s) ---
-  // Serial.println("_____");
+    Serial.println("Stopped");
+    move_motor(MOTOR_B_1A, MOTOR_B_1B, 0);
+    delay(2000);
 
-  // TODO: Turn off the motor
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
+    // --- SECTION 3: Counterclockwise (5s) ---
 
-  // delay(_____);
+    Serial.println("Counterclockwise");
+    move_motor(MOTOR_B_1A, MOTOR_B_1B, 255);
+    delay(5000);
 
-  // --- SECTION 3: Counterclockwise (5s) ---
-  // Serial.println("_____");
+    // --- SECTION 4: Stop (2s) ---
 
-  // TODO: Write HIGH to one pin and LOW to the other
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
-
-  // delay(_____);
-
-  // --- SECTION 4: Stop (2s) ---
-  // Serial.println("_____");
-
-  // TODO: Turn off the motor
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
-
-  // delay(_____);
+    Serial.println("Stopped");
+    move_motor(MOTOR_B_1A, MOTOR_B_1B, 0);
+    delay(2000);
 }
 
-// Note:
-// - Please uncomment the necessary lines and fill in the blank to complete the
-// assignment.
+#endif

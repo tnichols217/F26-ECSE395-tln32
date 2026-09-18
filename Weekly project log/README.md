@@ -10,3 +10,4 @@ track and document progress made during labs or teamwork time.
 | Week 1 | Figuring out Github                                                    |
 | Week 2 | Met with shareholder and clarified the problem and possible solution   |
 | Week 3 | Discussed our project needs, personas, and key insights from our notes |
+| Week 4 | Worked on function and technical specifications, project presentation  |
