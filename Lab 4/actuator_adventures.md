@@ -60,3 +60,10 @@ This is our third assignment working with the ESP32, and this lab focuses on con
 ## Reflection
 
 This lab also took about ~2 hours, mostly spent on writing the code and fighting with cpp on random things, not at the fault of the lab. I would rate this as low difficulty and I still remain comfortable with the course content.
+
+## Link to video and images
+
+[https://youtube.com/shorts/qhzRcm9dfsw](https://youtube.com/shorts/qhzRcm9dfsw)
+
+![](./photos/TTMotorCircuit.jpg)
+![](./photos/ServoMotorCircuit.jpg)
