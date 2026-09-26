@@ -32,3 +32,7 @@ This lab took about 2 hours, I would say this was a decently more difficult lab 
 to the rest, primarily voluntarily. The difficult thing was finding documentation on the
 pins and capabilities of the ESP32 we have, since the capacitive touch pins were not
 documented correctly. I am still comfortable with the course content.
+
+## Video
+
+[https://youtube.com/shorts/PP8bWtt02U8](https://youtube.com/shorts/PP8bWtt02U8)
