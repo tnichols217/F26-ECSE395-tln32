@@ -3,7 +3,7 @@ title: Week 6 Notes
 author: Trevor Nichols
 ---
 
-# Week 5
+# Week 6
 
 - Oct 2 - Met in lab to discuss prototype ideas (notes below)
 - Oct 2 - Met with shareholder for ideas presentation (notes below)
