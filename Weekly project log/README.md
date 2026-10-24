@@ -14,3 +14,5 @@ track and document progress made during labs or teamwork time.
 | Week 5 | Worked on brainstorming ideas for implementing the specs we've outlined      |
 | Week 6 | Met with our shareholder and selected ideas, then created our prototype plan |
 | Week 7 | Began work on prototypes                                                     |
+| Week 8 | Work on prototypes                                                           |
+| Week 9 | Continue work on prototypes and begin thinking about MVP                     |
