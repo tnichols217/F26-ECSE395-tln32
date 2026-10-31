@@ -5,14 +5,15 @@ track and document progress made during labs or teamwork time.
 
 # Table of Content
 
-| Weeks  | What we did                                                                  |
-| ------ | ---------------------------------------------------------------------------- |
-| Week 1 | Figuring out Github                                                          |
-| Week 2 | Met with shareholder and clarified the problem and possible solution         |
-| Week 3 | Discussed our project needs, personas, and key insights from our notes       |
-| Week 4 | Worked on function and technical specifications, project presentation        |
-| Week 5 | Worked on brainstorming ideas for implementing the specs we've outlined      |
-| Week 6 | Met with our shareholder and selected ideas, then created our prototype plan |
-| Week 7 | Began work on prototypes                                                     |
-| Week 8 | Work on prototypes                                                           |
-| Week 9 | Continue work on prototypes and begin thinking about MVP                     |
+| Weeks   | What we did                                                                  |
+| ------- | ---------------------------------------------------------------------------- |
+| Week 1  | Figuring out Github                                                          |
+| Week 2  | Met with shareholder and clarified the problem and possible solution         |
+| Week 3  | Discussed our project needs, personas, and key insights from our notes       |
+| Week 4  | Worked on function and technical specifications, project presentation        |
+| Week 5  | Worked on brainstorming ideas for implementing the specs we've outlined      |
+| Week 6  | Met with our shareholder and selected ideas, then created our prototype plan |
+| Week 7  | Began work on prototypes                                                     |
+| Week 8  | Work on prototypes                                                           |
+| Week 9  | Continue work on prototypes and begin thinking about MVP                     |
+| Week 10 | Complete prototypes and begin plan for MVP                                   |

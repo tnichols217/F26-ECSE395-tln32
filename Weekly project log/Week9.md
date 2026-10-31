@@ -3,7 +3,7 @@ title: Week 9 Notes
 author: Trevor Nichols
 ---
 
-# Week 7
+# Week 9
 
 - Oct 21 - Thinkbox meeting for building Prototype 2 mockup, and personally made
   progress on Prototype 1
