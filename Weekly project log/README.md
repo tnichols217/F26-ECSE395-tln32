@@ -17,3 +17,4 @@ track and document progress made during labs or teamwork time.
 | Week 8  | Work on prototypes                                                           |
 | Week 9  | Continue work on prototypes and begin thinking about MVP                     |
 | Week 10 | Complete prototypes and begin plan for MVP                                   |
+| Week 11 | Complete MVP and begin planning to test and executing testing and validation |
